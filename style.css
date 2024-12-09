@@ -63,13 +63,14 @@
   font-size: 30px;
   /* border-bottom: #BE3144;
   border-bottom-style:dotted; */
- 
 }
-/* .are{
-    border-bottom: #BE3144;
-    border-bottom-style: dotted;
-} */
-/* .body{
-    border: #BE3144;
-    border-bottom-style:  dotted;
-} */
+.cards{
+    width: 50px;
+    height: auto;
+}
+.one{
+    width: 50px;
+    height: auto;
+}
+
+
