@@ -4,90 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section id="header">
-        <nav class="nav-bar">
-            <div class="nav">
-                <p><a class="nav-link" href="#About">About</a></p>
-                <p><a class="nav-link" href="#Work">Work</a></p>
-                <p><a class="nav-link" href="#Contact">Contact</a></p>
-            </div>
-        </nav>
-    </section>
-    <section id="welcome">
-        <div class="hi">
-            <h1>Hey I am Mimic</h1>
-        </div>
-        <!-- <div class="web">
-            <span>a web developer</span>
-        </div> -->
-        <span>a web developer</span>
-    </section>
-    <section class="body">
-        <div class="are">
-            <h1>These are some of my projects</h1>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section">
+        <div class="welcome-content">
+            <h1>Hi, I'm John Doe</h1>
+            <p>A Web Developer & Designer</p>
         </div>
     </section>
-    <section class="cards">
-        <div class="ones">
-            <div class="one">
-                <img src="image/card1.jpg ">
+
+    <!-- Projects Section -->       
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-tile">
+                <img src="./img/tribute.jpg" alt="Project 1">
+                <h3 <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank">Technical Documentation</a>
+                </h3>
             </div>
-            <div>
-                <a class="cards" href="https://codepen.io/freeCodeCamp/full/zNqgVx">Tributepage
-                </a>
+            <div class="project-tile">
+                <img src="./img/random-quote-machine.png" alt="Project 2">
+                <h3><a href="https://codepen.io" target="_blank"></a>Survey Form</h3>
             </div>
-        </div>
-        <div class="twos">
-            <div>
-                <img src="image/card2.png">
-            </div>
-            <div>
-                <a class="cards" href="https://codepen.io/freeCodeCamp/full/qRZeGZ">RandomquoteMachine
-                </a>
-            </div>
-        </div>
-        <div class="threes">
-            <div>
-                <img src="image/card3.png">
-            </div>
-            <div>
-                <a class="cards" href="https://codepen.io/freeCodeCamp/full/wgGVVX">JavascriptCalculator
-                </a>   
-            </div>
-        </div>
-        <div class="fouths">
-            <div>
-                <img src="image/card4.jpg">
-            </div>
-            <div>
-                <a class="cards" href="https://codepen.io/freeCodeCamp/full/mVEJag">Map Data A cross Globe
-                </a>   
-            </div>
-        </div>
-        <div class="fives">
-            <div>
-                <img src="image/card5.png">
-            </div>
-            <div>
-                <a class="cards" href="https://codepen.io/freeCodeCamp/full/wGqEga">Wikipedia Views
-                </a>   
-            </div>
-        </div>
-        <div class="sixs">
-            <div>
-                <img src="image/card6.png">
-            </div>
-            <div>
-                <a class="cards" href="https://codepen.io/freeCodeCamp/full/KzXQgy">Tik Tac Toe Game
-                </a>   
+            <div class="project-tile">
+                <img src="./img/calc.png" alt="Project 3">
+                <h3><a href="https://codepen.io" target="_blank"></a>Landing Page</h3>
             </div>
         </div>
     </section>
+    <section id="projects">
+        <div class="project-grid-2">
+            <div class="project-tile-2">
+                <img src="./img/tribute.jpg" alt="Project 1">
+                <h3 a href="https://codepen.io" target="_blank" </a>Technical Documentation</h3>
+            </div>
+            <div class="project-tile-2">
+                <img src="./img/random-quote-machine.png" alt="Project 2">
+                <h3><a href="https://codepen.io" target="_blank"></a>Survey Form</h3>
+            </div>
+            <div class="project-tile-2">
+                <img src="./img/calc.png" alt="Project 3">
+                <h3><a href="https://codepen.io" target="_blank"></a>Landing Page</h3>
+            </div>
+        </div>
+        <div class="button">
+            <p>show all <i class="fa-solid fa-greater-than"></i></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+        <div class="contact-links">
+            <a id="profile-link" href="https://www.facebook.com/freecodecamp" target="_blank">
+                <i class="fa-brands fa-facebook"></i> facebook
+            </a>
+            <a id="profile-link" href="https://www.facebook.com/freecodecamp" target="_blank">
+                <i class="fa-brands fa-github"></i> Github
+            </a>
+            <a id="profile-link" href="https://www.facebook.com/freecodecamp" target="_blank">
+                <i class="fa-brands fa-twitter"></i> Twitter
+            </a>
+            <a id="profile-link" href="https://www.facebook.com/freecodecamp" target="_blank">
+                @ Send a Email
+            </a>
+            <a id="profile-link" href="https://www.facebook.com/freecodecamp" target="_blank">
+                <i class="fa-brands fa-facebook"></i> Call me
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+        <p> &copy; Created for freeCodeCamp <i class="fa-brands fa-free-code-camp"></i></p>
+    </footer>
 </body>
 
 </html>
