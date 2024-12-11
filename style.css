@@ -161,6 +161,9 @@ HERE AT THE END
     font-size: 20px;
     line-height: 28px;
 }
+.project-tile h3 a{
+    color: white;
+}
 .project-grid-2 {
     margin: 70px;
     display: grid;
@@ -168,6 +171,7 @@ HERE AT THE END
     gap: 40px;
     justify-content: center;
     max-width: 1280px;
+    /* color: white; */
 }
 .project-tile-2 {
     background-color:  #08183d;
@@ -187,6 +191,9 @@ HERE AT THE END
     color: white;
     font-size: 20px;
     line-height: 28px;
+}     
+.project-tile-2 h3 a{
+    color: white;
 }
 .button p{
     background-color: #303841;
