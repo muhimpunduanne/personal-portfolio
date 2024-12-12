@@ -80,6 +80,7 @@ HERE AT THE END
     background-color: #1F1E20;
     text-align: center;
     padding: 100px 20px 100px 20px;
+    gap: 0;
 
 }
 
@@ -87,6 +88,7 @@ HERE AT THE END
     max-width: 1270px;
     padding: 90px;   
     background-color: #222225;
+    /* gap: 0; */
 }
 
 #welcome-section h1 {
@@ -99,6 +101,7 @@ HERE AT THE END
     color: white;
     margin-bottom: 300px;
     margin-left: 210px;
+    padding-top: 100px;
 }
 
 #welcome-section p {
@@ -110,13 +113,13 @@ HERE AT THE END
     width: 542.2px;
     color:  #BE3144;
     align-items: center;
+    
 }
-
-/* Projects Section */
 #projects {
     padding: 4rem 2rem;
     background-color: #45567D; 
     text-align: center;
+    text-align: left;
 }
 
 #projects h2 {
@@ -130,7 +133,11 @@ HERE AT THE END
     max-width:  640px;
     /* border-radius: 8px; */
     /* margin-bottom: 2rem; */
+    /* margin-top: 20px; */
     color: white;
+    /* padding-bottom: 900px; */
+    /* align-items: center; */
+    /* text-align: center; */
 }
 
 .project-grid {
@@ -142,7 +149,7 @@ HERE AT THE END
     max-width: 1280px;
 }
 .project-tile {
-    background-color:  #08183d;
+    background-color:  #303841;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -171,10 +178,9 @@ HERE AT THE END
     gap: 40px;
     justify-content: center;
     max-width: 1280px;
-    /* color: white; */
 }
 .project-tile-2 {
-    background-color:  #08183d;
+    background-color:  #303841;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -212,7 +218,7 @@ HERE AT THE END
     margin-top: 10px;
 }
 .button p:hover {
-    background-color: rgb(224, 53, 53);  
+    background-color: rgb(53, 224, 130);  
     margin-left: 600px;
     margin-top: 50px;
     transition: background-color 0.3s ease;
@@ -224,17 +230,19 @@ HERE AT THE END
 
 /* Contact Section */
 #contact {
-    background-color: var(--text-color);
+    background-color: #303841;
     color: white;
     text-align: center;
     padding: 15px;
     height: 593.912px;
     padding:  0 20px 0 20px;
+    padding-top: 100px;
 }
 
 #contact h2 {
     /* margin-bottom: 2rem; */
     font-size: 60px;
+    /* padding-bottom: 100px; */
 }
 #contact span {
     font-size: 18px;
@@ -251,16 +259,14 @@ HERE AT THE END
 }
 
 .contact-links a:hover {
-    color: var(--secondary-color);
+    color: green;
     transition: color 0.3s ease;
     gap: 30px;
 
 }
-
-/* Footer */
 footer {
     height: 109.2px;
-    background-color:var(--text-color);
+    background-color: #303841; 
     color: white;
     text-align: center;
     display: flex;
@@ -277,5 +283,8 @@ footer p {
     transition: color 0.3s ease;
     /* gap: 30px; */
     margin-left: 90px;
+}
+@media screen {
+    
 }
 
